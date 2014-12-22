@@ -36,7 +36,8 @@
     $.fn.jFont = function(minimum, maximum, middle) {
         var oSelf = this,
 			fontSize = 'font-size',
-			px = 'px';
+			px = 'px',
+			notZero;
 			
         $(window).resize(function() {
             var size = window.innerWidth / notZero(middle);
@@ -49,7 +50,7 @@
             oSelf.css(fontSize, size + px);
         }).trigger('resize');
 		
-		var notZero = function(n) {
+		notZero = function(n) {
 			n = +n;
 			if (!n) {
 				throw new Error('Invalid dividend ' + n);
