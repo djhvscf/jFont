@@ -32,13 +32,21 @@
  * OTHER DEALINGS IN THE SOFTWARE.
  */
 
-(function($) {
+;(function($) {
     $.fn.jFont = function(minimum, maximum, middle) {
         var oSelf = this,
 			fontSize = 'font-size',
 			px = 'px',
-			notZero;
-			
+			notZero = $.noop;
+		
+		notZero = function(n) {
+			n = +n;
+			if (!n) {
+				throw new Error('Invalid dividend ' + n);
+			}
+			return n;
+		};
+		
         $(window).resize(function() {
             var size = window.innerWidth / notZero(middle);
             if (size < minimum) {
@@ -48,14 +56,6 @@
 				size = maximum;
 			}
             oSelf.css(fontSize, size + px);
-        }).trigger('resize');
-		
-		notZero = function(n) {
-			n = +n;
-			if (!n) {
-				throw new Error('Invalid dividend ' + n);
-			}
-			return n;
-		};
+        }).trigger('resize');		
     };
 })(jQuery);
