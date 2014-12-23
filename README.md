@@ -1,9 +1,8 @@
-# jFont
+# jFont [![Build Status](https://travis-ci.org/djhvscf/jFont.svg?branch=master)](https://travis-ci.org/djhvscf/jFont)
 A jQuery plugin for dynamically changing font sizes according to screen / browser width.
 Intended to be used with responsive or adaptive `CSS` layouts.
 
 Author Homepage:      http://djhvscf.github.io/Blog/<br />
-[![Build Status](https://travis-ci.org/djhvscf/jFont.svg?branch=master)](https://travis-ci.org/djhvscf/jFont)
 
 ## Dependencies
 This plugin has these dependencies
@@ -36,5 +35,5 @@ $(function() {
 **Demo:** [http://djhvscf.github.io/Blog/experiments/2014/12/jFont.html](http://djhvscf.github.io/Blog/experiments/2014/12/jFont.html)
 
 ## Reporting issues
-Your feedback is very appreciated!
+Your feedback is very appreciated! <br />
 Use this page to report issues (https://github.com/djhvscf/jFont/issues)
