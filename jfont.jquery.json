@@ -1,0 +1,28 @@
+{
+    "name": "jFont",
+    "version": "1.0.7",
+    "title": "jFont",
+    "description": "A jQuery Plugin that allows font responsive",
+    "author": {
+        "name": "Dennis Heránadez Vargas",
+        "email": "djhv92@hotmail.com",
+        "url": "http://djhvscf.github.io/Blog"
+    },
+    "licenses": [
+        {
+            "type": "MIT License",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.7"
+    },
+    "keywords": ["jfont.jquery"],
+    "homepage": "https://github.com/djhvscf/jFont",
+    "demo": "http://djhvscf.github.io/Blog/experiments/2014/12/jFont.html",
+    "bugs": {
+        "url": "https://github.com/djhvscf/jFont/issues"
+    },
+    "docs": "https://github.com/djhvscf/jFont",
+    "download": "https://github.com/djhvscf/jFont/releases"
+}

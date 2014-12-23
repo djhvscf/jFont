@@ -1,0 +1,28 @@
+{
+  "name": "jFont",
+  "version": "1.0.0",
+  "homepage": "https://github.com/djhvscf/jFont",
+  "authors": [
+    "djhvscf <djhv92@hotmail.com>"
+  ],
+  "description": "A jQuery Plugin that allows font responsive",
+  "main": [
+      "src/jFont.js"
+  ],
+  "keywords": [
+    "jFont",
+    "responsive",
+    "jquery",
+	"plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "docs",
+    "assets"
+  ]
+}
