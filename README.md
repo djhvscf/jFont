@@ -20,13 +20,11 @@ Define a default `CSS` font base by setting `font-size: 1em` and `line-height: 1
 ```
 ```javascript
 $(function() {
-
-  // All elements
-  $('body').fontFlex(14, 20, 70);
-
-  // H1 only
-  $('h1').fontFlex(24, 36, 70);	
-  
+  // All elements in the body
+  $('body').jFont(20, 60, 40);
+   
+  // Specific element, h1 in this example
+  $('h1').jFont(20, 60, 40);
 });
 ```
 
