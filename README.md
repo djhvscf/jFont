@@ -15,7 +15,7 @@ Define a default `CSS` font base by setting `font-size: 1em` and `line-height: 1
 **Syntax Example**  
 ```html
 <script src="jQuery.min.js"></script>  
-<script src="jQuery.fontFlex.min.js"></script>
+<script src="jFont.min.js"></script>
 ```
 ```javascript
 $(function() {
