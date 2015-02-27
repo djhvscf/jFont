@@ -32,7 +32,7 @@ $(function() {
 `maximum` Maximum font-size in pixels  
 `middle` Mid-range buffer. Values ranging from 60 to 70 produce the best results. Lower values produce a larger initial font-size, while higher values produce the opposite. Adjust accordingly to fit your requirements.
 
-**Demo:** [http://djhvscf.github.io/Blog/experiments/2014/12/jFont.html](http://djhvscf.github.io/Blog/experiments/2014/12/jFont.html)
+**Demo:** http://djhvscf.github.io/jFont/
 
 ## Reporting issues
 Your feedback is very appreciated! <br />
